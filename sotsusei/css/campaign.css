@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+
+header{
+    font-size: 18px;
+    display: flex;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    flex: 1;
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+}
+
+/* ここまではヘッダー設定なので必ず入れる */
+
+h1{
+    margin-top: 25px;
+}
+
+.big{
+    margin-top: 100px;
+}
+
+button{
+    margin-top: 50px;
+    width: 1000px;
+    height: 50px;
+}
+
+.button{
+    margin-top: 50px;
+    width: 1000px;
+    height: 50px;
+}
+
+/* ここはフッターなので全部に入れよう！ */
+
+footer{
+    display: flex;
+    font-size: 12px;
+    color: gray;
+    background-color: blanchedalmond;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.foot{
+    flex-grow: 1;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: -10px;
+}

@@ -1,0 +1,122 @@
+body{
+    text-align: center;
+}
+
+header{
+    font-size: 18px;
+    display: flex;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    flex: 1;
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+}
+
+/* ここまではヘッダー設定なので必ず入れる */
+
+
+.title{
+    width: 1000px;
+}
+
+
+
+/* ここは全体の調整 */
+.flex_box{
+    display: flex;
+}
+
+.flex1{
+    flex-grow: 2;
+}
+
+.flex2{
+    flex-grow: 1;
+}
+
+
+/* ここは見出し */
+h3{
+    width: 700px;
+    height: 200px;
+    border: solid;
+    border-color: gainsboro;
+}
+
+.media{
+    width: 700px;
+}
+
+/* ここはコメントのユーザー管理 */
+.comment{
+    width: 700px;
+    height: 200px;
+}
+
+.flex{
+    display: flex;
+}
+
+.gazou{
+    width: 50px;
+    height: 50px;
+    border: solid gainsboro;
+
+}
+
+.user_name{
+    width: 200px;
+    height: 50px;
+    border: solid gainsboro;
+}
+
+.comment_naiyou{
+    height: 100px;
+    border-bottom: solid 1px gray;
+    width: 800px;
+    text-align: center;
+}
+
+
+/* ここから右側 */
+.kahi{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+button{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+
+
+/* ここはフッターなので全部に入れよう！ */
+
+footer{
+    display: flex;
+    font-size: 12px;
+    color: gray;
+    background-color: blanchedalmond;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.foot{
+    flex-grow: 1;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: -10px;
+}

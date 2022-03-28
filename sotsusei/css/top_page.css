@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    width: auto;
+}
+
+header{
+    font-size: 18px;
+    display: flex;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    flex: 1;
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+}
+
+/* ここまではヘッダー設定なので必ず入れる */
+
+
+.top_media{
+    display: flex;
+    text-align: center;
+    border: solid;
+    border-color: gainsboro;
+    width: 1000px;
+
+}
+
+.top_gazou{
+    width: 300px;
+}
+
+.top_naiyou{
+    width: 300px;
+}
+
+.chuumoku{
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.att{
+    display: flex;
+    width: 1000px;
+    border: solid;
+    border-color: gainsboro;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.att_gazou{
+    width: 250px;
+}
+
+.fuji{
+    width: 1000px;
+}
+
+button{
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* ここはフッターなので全部に入れよう！ */
+
+footer{
+    display: flex;
+    font-size: 12px;
+    color: gray;
+    background-color: blanchedalmond;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.foot{
+    flex-grow: 1;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: -10px;
+}

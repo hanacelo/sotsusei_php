@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+}
+
+header{
+    font-size: 18px;
+    display: flex;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    flex: 1;
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+}
+
+/* ここまではヘッダー設定なので必ず入れる */
+
+
+
+.flex1{
+    flex-grow: 1;
+    text-align: left;
+    margin-top: 20px;
+    border: solid gainsboro;
+    width: 900px;
+    height: 200px;
+}
+
+.cam_gazou{
+    width: 560px;
+    height: 350px;
+}
+
+/* ここはそれぞれの詳細設定 */
+.atesaki{
+    font-size: 10px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.syousai{
+    font-size: 10px;
+}
+
+.my_name{
+    font-size: 10px;
+}
+
+/* 追加 */
+.your_campaign{
+    display: flex;
+
+}
+
+/* 追加 */
+.gazou{
+    height: 200px;
+    width: 200px;
+    padding-right: 20px;
+}
+
+
+
+
+.yohaku{
+    margin-bottom: 100px;
+}
+
+/* ここはフッターなので全部に入れよう！ */
+
+footer{
+    display: flex;
+    font-size: 12px;
+    color: gray;
+    background-color: blanchedalmond;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.foot{
+    flex-grow: 1;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: -10px;
+}
